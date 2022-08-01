@@ -25,9 +25,28 @@ string-double quote
 
 Variable Op(operator) = Expression --> Variable=Variable Op (Expression)  
   ![image](https://user-images.githubusercontent.com/109948257/182175498-b914ee41-690f-4ab4-99e7-9748019b715d.png)
+incrementand decrement operator:  
+  ++: increase the variable vale by one  
+    n++:if the ++ is after the variable, the incrementing is done after the value is returned  
+      int n=2;    
+      int aftern=2*(n++);  
+      return aftern 4  
+      return n 3  
+    ++n: if the ++ is before the variable, the incrementing is down bfore the value is returned  
+      int n=2;  
+      int beforen=2*(++n);  
+      return beforen 6  
+      return n 3    
 
 integer and floating point division:    
   int: not rounded, the decimal part is discarded: 10/3-->3    
       % gives the remainder:14%3-->2    
+      
+String methods:  
+  int string.length()  
+  boolean  string.equals(other_string)  
+  
+  
+
   
   
