@@ -45,6 +45,18 @@ integer and floating point division:
 String methods:  
   int string.length()  
   boolean  string.equals(other_string)  
+  boolean string.equalsIgnoreCase(other_string) -- Upper and lower cases are treated as the same.  
+  string string.toLowerCase()  
+  string string.toUpperCase()  
+  string string.trim() -- Remove the leading and trailing white spaces.  
+  char string.charAt(position)
+  string string.substring(start) -- Extract from the start to the end, the start is included  
+  string string.substring(start,end) -- start is included, but end is not included  
+  int string.indexOf(full_string) -- Return the index(position) of the first occurence  
+    int string.indexOf(full_string,start)  
+  int string.lastIndexOf(full_string)  
+  int string.compareTo(other_string) -- Upper>lower  
+  int string.compareToIgnoreCase(other_string)  
   
   
 
