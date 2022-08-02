@@ -67,7 +67,7 @@ escape sequence (this is a single character,even though spelled in two symbols)
   tab  \t  
   
 line comments: //  (only for the code writer)
-block comments: /*.... *
+block comments: /*comments*/ (become part of the code)
 
 
 
