@@ -66,8 +66,9 @@ escape sequence (this is a single character,even though spelled in two symbols)
   carriage return  \r （go to the beginning of the current line） 
   tab  \t  
   
-line comments: //  (only for the code writer)
-block comments: /*comments*/ (become part of the code)
+line comments: //  (only for the code writer)  
+block comments: /*comments*/ (become part of the code)  
+
 
 
 
