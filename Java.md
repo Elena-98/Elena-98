@@ -57,6 +57,45 @@ String methods:
   int string.lastIndexOf(full_string)  
   int string.compareTo(other_string) -- Upper>lower  
   int string.compareToIgnoreCase(other_string)  
+
+escape sequence (this is a single character,even though spelled in two symbols)  
+  backslash  \\  
+  single quote  \'  
+  double quote  \"  
+  new line  \n  
+  carriage return  \r （go to the beginning of the current line） 
+  tab  \t  
+  
+line comments: //  (only for the code writer)
+block comments: /*.... *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
   
 
