@@ -69,6 +69,39 @@ escape sequence (this is a single character,even though spelled in two symbols)
 line comments: //  (only for the code writer)  
 block comments: /*comments*/ (become part of the code)  
 
+System.out.println     
+System.out is an object   
+println is a method  
+System.out.printf("%6.2f", price)  
+  The format specifier %6.2f says to output a floating-point number in a field (number of spaces) of width 6 (room for six   characters) and to show exactly two  digits after the decimal point.    
+  dose not advance the output to the next line   
+  ![image](https://user-images.githubusercontent.com/109948257/182512566-ff346d79-8db8-459d-bd14-241e76d19339.png)   
+  When the value output does not fill the field width specified, blanks are added in front of the value output. The output   is then said to be right justified. If you add a hyphen after the %, any extra blank space is placed after the value       output, and the output is said to be left justified.   
+  ![image](https://user-images.githubusercontent.com/109948257/182515749-321e7ff4-6b70-410f-bd2d-e68ba098489a.png)  
+  ![image](https://user-images.githubusercontent.com/109948257/182515796-f2916a32-0083-45e5-af8a-e143edc0d715.png)  
+  %n is equal to \n here   
+
+NumberFormat moneyFormatter = NumberFormat.getCurrencyInstance();       
+![image](https://user-images.githubusercontent.com/109948257/182516848-9eac7d61-60a4-4445-9195-0292db531361.png)    
+![image](https://user-images.githubusercontent.com/109948257/182516864-b6091094-e65c-415b-ab40-0ebb0e847bf1.png)   
+
+import packages and classes   
+packages:   
+  java.text  
+  java.util  
+  
+Scanner
+import java.util.Scanner
+
+  
+
+
+ 
+  
+
+
+
+  
 
 
 
