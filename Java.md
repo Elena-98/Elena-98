@@ -90,8 +90,22 @@ packages:
   java.text  
   java.util  
   
-Scanner
-import java.util.Scanner
+Scanner class   
+import java.util.Scanner   
+Scanner object_name = new Scanner(System.in); //receiving data entered from keyboard   
+  object_name usually would be keyboard   
+int number_putin = objective_name.nextInt(); //reads one int value typed on the keyboard    
+  The numbers typed in must be separated by whitespace, such as one or more spaces, a line break, or other whitespace.    
+double d = object_name.nextDouble(); //reads one double   
+String word = object_name.next(); //reads one word       
+String line = object_name.nextLine();   
+![image](https://user-images.githubusercontent.com/109948257/182758840-7dbfc467-077f-467e-bdbe-d26dcc83fbe9.png)    
+![image](https://user-images.githubusercontent.com/109948257/182759159-ac78db11-7b74-4dd4-880a-0b2d58fe3105.png)    
+
+
+
+
+
 
   
 
