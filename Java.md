@@ -92,6 +92,15 @@ packages:
   java.text  
   java.util  
   
+![image](https://user-images.githubusercontent.com/109948257/182853875-fc37a3df-b592-4264-a567-54e0101fd70a.png)   
+If the above program is run from the command line as follows:  
+java YourProgram Do Be Do   
+the output produced by the program will be   
+Be Do Be   
+Each argument is treated as a string. But you can convert the string input to int or a double, for example using:   
+int argument = Integer.parseInt(args[0]);   
+double arg0 = Double.parseDouble(args[0]);   
+
 Scanner class   
 import java.util.Scanner   
 Scanner object_name = new Scanner(System.in); //receiving data entered from keyboard   
