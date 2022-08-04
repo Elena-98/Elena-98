@@ -37,6 +37,8 @@ incrementand decrement operator:
       int beforen=2*(++n);  
       return beforen 6  
       return n 3    
+  If an expression uses a variable, say x, more than once, and one has an increment or decrement, the expression becomes 
+  confusing for the reader, even though it isn't to the compiler   
 
 integer and floating point division:    
   int: not rounded, the decimal part is discarded: 10/3-->3    
