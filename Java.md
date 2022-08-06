@@ -20,6 +20,7 @@ you can assign a value of any type in the following list to a variable of any ty
     int n;  
     int m;  
     double ans=n/(double)m;  
+  int-->float, long-->float, and long-->double can result in inexact conversions   
 char-single quote  
 string-double quote  
 
