@@ -118,6 +118,35 @@ String line = object_name.nextLine();
 File input     
 import java.io.FileInputStream;     
 import java.io.FileNotFoundException;          
+![image](https://user-images.githubusercontent.com/109948257/183363209-8406af2b-e94e-4602-b8fe-4c94b987f32e.png)    
+
+Boolean    
+() in if-else expression, a Boolean must be enclosed in parenthese  
+{} to execute more than one statement each in an if-else statement  
+  placement of braces  
+  indenting   
+multiway if-else statement; Boolean expressions are evaluated in order until a true Boolean is found   
+![image](https://user-images.githubusercontent.com/109948257/183368534-0edbc2bd-bc1a-49cc-ae87-626648d847d5.png)   
+conditional operator (ernary operator, arithmetic if)   
+  (n1>n2) ? n1 : n2 -- if Boolean is true, then the first expression n1 will be returned, otherwise n2    
+and operator: &&    
+or operator: ||   
+negate any Boolean expression operator: !   
+  ! (savings < debt) -- savings is not less than debt   
+   
+when testing strings for equality, do not use == :  (== used for primitive types)   
+String.equals(Other_String);  
+String.equalsIgnoreCase(Other_String);   
+String.compareTo(Other-String): lexicographic oedering (all upper letters come before lowercase letters)   
+  compareToIgnoreCase()
+  returns a negative number if s1 comes before s2 in lexicographic ordering   
+  returns zero if the two strings are equal   
+  returns a positive number if s2 comes before s1    
+
+
+
+
+
 
 
 
