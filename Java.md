@@ -143,6 +143,19 @@ String.compareTo(Other-String): lexicographic oedering (all upper letters come b
   returns zero if the two strings are equal   
   returns a positive number if s2 comes before s1    
 
+loops statements:   
+while    
+  a while loop can iterate its body zero times  
+  Boolean is checked before the loop body is executed
+do-while   
+  a do-while loop always iterates its body at least one time   
+  Boolean is checked after the loop body is executed first
+for   
+
+
+
+
+
 
 
 
