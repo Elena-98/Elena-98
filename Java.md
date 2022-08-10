@@ -126,6 +126,8 @@ Boolean
   placement of braces  
   indenting   
 multiway if-else statement; Boolean expressions are evaluated in order until a true Boolean is found   
+switch statement is the only other kind of Java statement tha timplements multiway branches   
+  the controlling expressions for a switch a statement must be: char, int, short, byte, String   
 ![image](https://user-images.githubusercontent.com/109948257/183368534-0edbc2bd-bc1a-49cc-ae87-626648d847d5.png)   
 conditional operator (ernary operator, arithmetic if)   
   (n1>n2) ? n1 : n2 -- if Boolean is true, then the first expression n1 will be returned, otherwise n2    
