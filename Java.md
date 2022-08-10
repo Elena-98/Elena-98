@@ -149,11 +149,20 @@ while
   Boolean is checked before the loop body is executed
 do-while   
   a do-while loop always iterates its body at least one time   
-  Boolean is checked after the loop body is executed first
-for   
+  Boolean is checked after the loop body is executed first   
+![image](https://user-images.githubusercontent.com/109948257/183795180-d110086f-eb78-45bf-a50c-e99e6e9cd59e.png)    
+for (initialization; Boolean_Expression; update)    
+    Body   
+a for loop can contain multiple initialization by using commas    
+to label a loop: "identifier :"   
+In a loop: break, countine, System.exit()   
 
-
-
+debugging    
+loop bugs   
+  unitended infinite loops    
+  off-by-one: "==" is not reliable for floating-point numbers for they are approximate quantities, 
+  and "==" tests for exact match    
+general dubugging techniques
 
 
 
