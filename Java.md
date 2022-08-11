@@ -164,7 +164,29 @@ loop bugs
   unitended infinite loops    
   off-by-one: "==" is not reliable for floating-point numbers for they are approximate quantities, 
   and "==" tests for exact match    
-general dubugging techniques
+assertion checks: either be true or flase   
+  assert Boolean_expression;     
+  java -enableassertions YourProgram    
+  
+random number generation -- pseudorandom    
+import java.util.Random;   
+Random radomGenerator = new Random();   
+generatee a random integer   
+  int r = randomGenerator.nextInt();   
+generate an integer from 0 to n-1    
+  int r = randomGenerator.nextInt(n);   
+scale a random bumber by adding an offset   
+  int r = randomGenerator.nextInt(n) , 4;   
+generate a random double    
+  double r = randomGenerator.nextDouble();   
+  this returns a number 0.0 <= r < 1.0   
+generate random doubles without Random class   
+  Math.random() -- 0.0<=   <1.0   
+  int number = (int)(Math.random() * 6)+1;
+  
+  
+  
+
 
 
 
