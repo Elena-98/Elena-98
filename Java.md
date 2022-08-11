@@ -66,7 +66,7 @@ escape sequence (this is a single character,even though spelled in two symbols)
   single quote  \'  
   double quote  \"  
   new line  \n  
-  carriage return  \r （go to the beginning of the current line） 
+  carriage return  \r （go to the beginning of the current line）    
   tab  \t  
   
 line comments: //  (only for the code writer)  
