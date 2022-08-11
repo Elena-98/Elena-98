@@ -60,6 +60,8 @@ String methods:
   int string.lastIndexOf(full_string)  
   int string.compareTo(other_string) -- Upper>lower  
   int string.compareToIgnoreCase(other_string)  
+  int argument = Integer.parseInt(args[0]);    
+  double arg0 = Double.parseDouble(args[0]);    
 
 escape sequence (this is a single character,even though spelled in two symbols)  
   backslash  \\  
