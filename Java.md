@@ -208,8 +208,8 @@ global variable - java does not have
 instance variable   
 
 block -- compund statement (a set of statements enclosed in braces)  
-
-parameters of a primitive type
+parameter -- 
+argument -- the value is plugged in for the parameter   
 
 
 
