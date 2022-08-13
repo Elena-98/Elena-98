@@ -184,10 +184,33 @@ generate a random double
   this returns a number 0.0 <= r < 1.0   
 generate random doubles without Random class   
   Math.random() -- 0.0<=   <1.0   
-  int number = (int)(Math.random() * 6)+1;
+  int number = (int)(Math.random() * 6)+1;    
   
-  
-  
+class definition  
+class -- type  
+object -- a value of a class type -- an instance of the class   
+method -- actions that objects have    
+  a method definition is divided into two parts: heading & method body   
+  ![image](https://user-images.githubusercontent.com/109948257/184466466-4c43ccf4-0c36-41c0-ac8b-d7c6ece025db.png)    
+  void -- a method for performing an action as opposed to producing a value
+  void heading: public void Method_Name (parameter_list)  
+  a method that returns a value heading: public Type_Returned Method_Name (parameter_list)  
+    the body of a method that returns a value must contain at least one return statement   
+    ![image](https://user-images.githubusercontent.com/109948257/184466874-961d7edb-6779-4430-a192-170369e823bd.png)    
+    a return statement always ends a method invocation (any remaining statements after return will not be executed)   
+fields -- instance variables -- data items  
+data & method -- members of an object  
+new operator -- used to create an object of a class and associate the object with a variable that names it  
+  class_variable = new class_name()   
+
+local variables - declared within a method, being local to or confined to the method definition    
+global variable - java does not have  
+instance variable   
+
+block -- compund statement (a set of statements enclosed in braces)  
+
+parameters of a primitive type
+
 
 
 
