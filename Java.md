@@ -211,7 +211,30 @@ block -- compund statement (a set of statements enclosed in braces)
 parameter -- 
 argument -- the value is plugged in for the parameter   
 
+information hiding -- separate the dexcription of how to use a class from the implementation details   
+  a programmer who uses the class does not need to know the implementation details   
+  avoid nfprmation overloading   
+  abstraction   
+escapsulation -- grouping software into a unit in such a way that it is easy to use       
+API -- application programming interface    
+ADT -- abstract data type
 
+public -- no restrictions on where the instance variable can be used     
+private -- instance variable cannot be accessed by name outside of the class definition   
+  no way to change its value except by suing one of the methods belonging to the class   
+  does not mean impossible to access the instance variable (method get)   
+normally all instance variables are private, most methods are public   
+  
+accessor -- obtain data (getMonth)    
+mutator -- change the data in a class object (set)   
+  String has no public mutator methods   
+precondition -- states what is assumed to be true when the method is called    
+  the method should not be used and cannot be expected to perform correctly unless the precondition holds   
+postcondition -- dexcribes the effect of the method call   
+  tells what will be true after the method is executed in a situation in which the precondition holds   
+
+
+  
 
 
 
