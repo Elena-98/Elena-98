@@ -64,9 +64,9 @@ String methods:
   double arg0 = Double.parseDouble(args[0]);    
 
 escape sequence (this is a single character,even though spelled in two symbols)  
-  backslash  \\  
-  single quote  \'  
-  double quote  \"  
+  backslash  \\     
+  single quote  \'     
+  double quote  \"     
   new line  \n  
   carriage return  \r （go to the beginning of the current line）    
   tab  \t  
